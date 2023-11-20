@@ -1,4 +1,3 @@
-from cvsmergePack import fusionner_fichiers_csv
-
-# # Lancer la boucle principale de l'interface utilisateur
-fusionner_fichiers_csv()
+from Cvsmerge import cvsmergeclass
+instan=cvsmergeclass()
+instan.fusionner_fichiers_csv()
